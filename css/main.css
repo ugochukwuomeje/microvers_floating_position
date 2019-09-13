@@ -145,26 +145,66 @@ nav>div {
 
 .footer-container {
   display: flex;
-  margin-left: 12px;
-  width: 100%;
+  margin: auto;
+  width: 90%;
   height: 500px;
+ 
 }
-
+h5{
+  font-family:arial
+}
+h3{
+  margin-left: 15px;
+}
 .footer-container>div {
-  width: 150px;
-  margin: 12px;
-  line-height: 35px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 25px;
+  
+  margin: 20px;
+
 }
 
 .footer-container>div>a {
   text-decoration: none;
   color: black;
+  font-family: arial;
 }
 
-.footer-container>div>a:hover{
+.footer-container>div>a:hover {
+  text-decoration: underline;
+}
+
+#go-home {
+  float: right;
+  
+}
+#go-home>a{
+  text-decoration: none;
   color: #326891
+}
+hr{
+  width: 90%;
+  flex:0;
+  color: grey;
+  size: 0.2;
 }
 
 .vl {
   border-left: 1px solid grey;
+  flex:0;
 }
+footer>#f-links>a{
+  text-decoration: none;
+  color:gray;
+  font-size: 12px;
+  
+}
+#f-links{
+  border-top: 1px solid grey;
+  margin: 0 75px 0 75px;
+  padding-left: 150px;
+}
+/* .side-link>div{
+  margin-left: 150px;
+} */
