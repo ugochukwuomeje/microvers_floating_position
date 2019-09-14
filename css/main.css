@@ -101,17 +101,29 @@ nav>div {
 }
 
 .imgsection {
-  margin: 0px;
+  margin: 150px 0 0 0px;
   width: 100%;
+ 
 }
 
 .imgcontainer {
   width: 90%;
   margin: auto;
+
+  display: flex;
+}
+
+.imgsection .imgcontainer .right-img .top-right-img{
+
+  margin: 20px 0 20px 0;
 }
 
 .right-img {
   width: 70%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+  margin-right: 10px;
 }
 
 .top-right-img {
@@ -129,19 +141,96 @@ nav>div {
   width: 100%;
 }
 
-.top-right-img .top-img .img-caption a {
+ .top-right-img  a{
   text-decoration: none;
-  font-size: 1.25rem;
   color: rgb(18, 18, 18);
+
+}
+/****this is the section for the small text above the top , lower image section, and side article****/
+ .editor{
+  position:absolute;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
 }
 
-.top-right-img .top-img .img-caption a:hover {
+.editor-top{
+  
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+.article-container .editor-top{
+
+  margin-left: 30px;
+  font-size: 0.9em;
+}
+/**********************************************************************************/
+
+.top-right-img a .img-caption section{
+
+  font-size: 1em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.top-right-img  a .img-caption span{
+
+  font-size: 0.6em;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.top-right-img  a .img-caption span:first-child{
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+
+.imgsection .imgcontainer .top-right-img:last-child{
+
+  border-top: solid 1px;
+  padding-top: 50px;
+}
+
+.top-right-img  a:hover {
   color: gray;
 }
 
 .imgcontainer {
   margin-bottom: 1em;
 }
+/**this is the section for artical**/
+.article-container{
+  width: 30%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.article-container ul li{
+  border-top-style: solid;
+  padding: 25px 0 25px 0;
+  border-top-width: 0.5px;
+  border-color: rgb(192, 192, 192);
+  display: list-item;
+  list-style-type: none;
+  
+}
+.article-container ul li a:hover{
+
+  color: grey;
+}
+
+.article-container ul li a{
+
+  text-decoration: none;
+  color: #333;
+}
+/**********************************/
 
 .footer-container {
   display: flex;
@@ -155,6 +244,7 @@ h5{
 }
 h3{
   margin-left: 15px;
+  font-family: Old English Text MT;
 }
 .footer-container>div {
   width: 100%;
