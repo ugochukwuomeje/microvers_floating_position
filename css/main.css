@@ -229,9 +229,42 @@ nav>div {
 
 section.para {
     display: block;
-    padding: 350px;
+    padding: 0 350px 0 350px;
     line-height: 1.5;
 }
+aside{
+    display: inline-block;
+    width: 13%;
+    float: right;
+    padding-right: 45px;
+    text-align: left;
+  
+  
+  }
+  #sign-up>small{
+    font-size: 11.8px;
+    color:grey;
+    line-height:1;
+  }
+  
+  #some-img-caption {
+    align: center;
+    width: 100%;
+    margin: auto;
+  }
+  #sign-up>button{
+    width:100%;
+    height: 35px;
+    background-color:#578CA9;
+    color:white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #sign-up>button:hover{
+    background-color:#485167
+  }
 
 #some-img-caption {
     align: center;
@@ -241,7 +274,7 @@ section.para {
 
 section>#text-caption {
     margin: 0 0 0 85px;
-    text-align:
+   
 }
 
 figcaption {
