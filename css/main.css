@@ -16,7 +16,7 @@ nav {
     width: 100%;
     height: 43px;
     line-height: 43px;
-    background-color: white
+    background-color: white;
 }
 
 nav ul {
@@ -79,18 +79,15 @@ nav>div {
     font-size: 2.3em;
     text-align: center;
     position: relative;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, "times new roman", times, serif;
     font-weight: bold;
     font-style: italic;
     top: 2em;
-    
-
 }
 
 #telescope {
     text-align: center;
     margin-top: 9%;
- 
 }
 
 .telescope {
@@ -99,23 +96,20 @@ nav>div {
     height: 65%;
 }
 
-#telescope #img-title{
-
+#telescope #img-title {
     position: relative;
     left: -6em;
     font-size: 0.93rem;
     line-height: 1.25rem;
     color: #666;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, "times new roman", times, serif;
 }
 
-#telescope #img-title span{
-
+#telescope #img-title span {
     display: inline-block;
     color: #888;
     letter-spacing: 0.01em;
     font-size: 0.8em;
-    
 }
 
 .imgsection {
@@ -161,8 +155,6 @@ nav>div {
     color: rgb(18, 18, 18);
 }
 
-/****this is the section for the small text above the top , lower image section, and side article****/
-
 .editor {
     position: absolute;
     font-weight: bold;
@@ -180,8 +172,6 @@ nav>div {
     margin-left: 30px;
     font-size: 0.9em;
 }
-
-/**********************************************************************************/
 
 .top-right-img a .img-caption section {
     font-size: 1em;
@@ -214,8 +204,6 @@ nav>div {
     margin-bottom: 1em;
 }
 
-/**this is the section for artical**/
-
 .article-container {
     width: 30%;
     border-top-style: solid;
@@ -243,8 +231,6 @@ nav>div {
     color: #333;
 }
 
-/**********************************/
-
 section.para {
     display: block;
     padding: 0 350px 0 350px;
@@ -257,8 +243,6 @@ aside {
     float: right;
     padding-right: 45px;
 }
-
-aside#editors-picks {}
 
 .text-links {
     font-size: 12px;
@@ -292,7 +276,7 @@ img, .text-links {
 #sign-up>button {
     width: 100%;
     height: 35px;
-    background-color: #578CA9;
+    background-color: #578ca9;
     color: white;
     font-size: 12px;
     border: none;
@@ -301,7 +285,7 @@ img, .text-links {
 }
 
 #sign-up>button:hover {
-    background-color: #485167
+    background-color: #485167;
 }
 
 #some-img-caption {
@@ -309,29 +293,6 @@ img, .text-links {
     width: 100%;
     margin: auto;
 }
-
-/* aside#editors-picks{
-    
-    border: 1px solid black;
-    width:15%;
-}
-aside>.link-picks{
-    border:1px solid blue;
-    width: 120%;
-
-    
-}
-.link-picks>a{
-    text-decoration: none;
-    color:black;
-    
-}
-.link-picks>a img {
-    vertical-align: middle;
-}
-.link-text{
-    font-size: 12px;
-} */
 
 section>#text-caption {
     margin: 0 0 0 85px;
@@ -403,7 +364,7 @@ section#some-img-caption>p {
 }
 
 h5 {
-    font-family: arial
+    font-family: arial;
 }
 
 h3 {
@@ -434,7 +395,7 @@ h3 {
 
 #go-home>a {
     text-decoration: none;
-    color: #326891
+    color: #326891;
 }
 
 hr {
@@ -460,44 +421,37 @@ footer>#f-links>a {
     margin: 0 75px 0 75px;
     padding-left: 150px;
 }
-/*** this is the section for social media links****/
 
- .autor{
+.autor {
     width: 48%;
     margin: auto;
-
 }
 
-.autor .autor-name{
-
+.autor .autor-name {
     padding-bottom: 1em;
 }
 
-.autor .autor-name a{
-    font-family: helvetica,arial,sans-serif;
+.autor .autor-name a {
+    font-family: helvetica, arial, sans-serif;
     font-weight: 700;
     color: #333;
     text-decoration: none;
-    
 }
 
-.autor .autors-details{
+.autor .autors-details {
     display: flex;
     justify-content: space-between;
 }
 
-.autor .autors-details .date{
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+.autor .autors-details .date {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 500;
     color: #333;
     margin-bottom: 1rem;
     font-size: 0.8125rem;
-    
-    
 }
 
-.autor .autors-details .social-network a{
-
+.autor .autors-details .social-network a {
     margin-right: 10px;
     border-radius: 50%;
     padding: 5px;
@@ -507,35 +461,27 @@ footer>#f-links>a {
     color: #333;
     text-align: center;
 }
-.autor .autors-details .social-network a:hover{
 
+.autor .autors-details .social-network a:hover {
     background: rgb(253, 253, 253);
     border-style: solid;
     border-width: 1px;
-    border-color: #ccc
+    border-color: #ccc;
 }
 
-/*****end of the section links for the social media links***/
-
-/**this is the section for the dish******/
-
-.dish-section .dish-div .dish{
-
+.dish-section .dish-div .dish {
     width: 100%;
 }
-.dish-section .img-caption{
 
+.dish-section .img-caption {
     font-size: 0.9375rem;
     line-height: 1.25rem;
     margin-right: 7px;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-.dish-section .img-autor{
-
+.dish-section .img-autor {
     color: #888;
     font-size: 0.8em;
 }
-/****************************************/
