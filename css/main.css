@@ -12,10 +12,11 @@ nav {
     border-width: 1px;
     border-color: rgba(207, 207, 207, 0.637);
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 43px;
     line-height: 43px;
+    background-color: white
 }
 
 nav ul {
@@ -252,7 +253,7 @@ section.para {
 
 aside {
     display: block;
-    width: 13%;
+    width: 17%;
     float: right;
     padding-right: 45px;
 }
@@ -279,7 +280,7 @@ img, .text-links {
 #sign-up>small {
     font-size: 11.8px;
     color: grey;
-    line-height: 1;
+    line-height: 0.5;
 }
 
 #some-img-caption {
