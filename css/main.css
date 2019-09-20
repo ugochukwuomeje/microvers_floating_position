@@ -6,12 +6,6 @@ body, html {
     line-height: 22px;
 }
 
-.space {}
-
-.newyork {}
-
-.buttons {}
-
 nav {
     display: flex;
     border-style: solid;
@@ -84,20 +78,43 @@ nav>div {
     font-size: 2.3em;
     text-align: center;
     position: relative;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: georgia,'times new roman',times,serif;
     font-weight: bold;
+    font-style: italic;
     top: 2em;
+    
+
 }
 
 #telescope {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 9%;
+ 
 }
 
 .telescope {
     text-align: center;
     width: 75%;
     height: 65%;
+}
+
+#telescope #img-title{
+
+    position: relative;
+    left: -6em;
+    font-size: 0.93rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: georgia,'times new roman',times,serif;
+}
+
+#telescope #img-title span{
+
+    display: inline-block;
+    color: #888;
+    letter-spacing: 0.01em;
+    font-size: 0.8em;
+    
 }
 
 .imgsection {
@@ -442,3 +459,82 @@ footer>#f-links>a {
     margin: 0 75px 0 75px;
     padding-left: 150px;
 }
+/*** this is the section for social media links****/
+
+ .autor{
+    width: 48%;
+    margin: auto;
+
+}
+
+.autor .autor-name{
+
+    padding-bottom: 1em;
+}
+
+.autor .autor-name a{
+    font-family: helvetica,arial,sans-serif;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.autor .autors-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor .autors-details .date{
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 0.8125rem;
+    
+    
+}
+
+.autor .autors-details .social-network a{
+
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgb(230, 228, 228);
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+}
+.autor .autors-details .social-network a:hover{
+
+    background: rgb(253, 253, 253);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc
+}
+
+/*****end of the section links for the social media links***/
+
+/**this is the section for the dish******/
+
+.dish-section .dish-div .dish{
+
+    width: 100%;
+}
+.dish-section .img-caption{
+
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-right: 7px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    
+}
+
+.dish-section .img-autor{
+
+    color: #888;
+    font-size: 0.8em;
+}
+/****************************************/
