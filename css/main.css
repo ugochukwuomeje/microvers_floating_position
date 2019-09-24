@@ -40,8 +40,8 @@ nav ul li a {
 
 button nav ul {
   background-color: #6288a5;
-  border-radius: 3px;
   border: 1px solid #326891;
+  border-radius: 3px;
   color: rgb(105, 23, 23);
   cursor: pointer;
   font-family: helvetica, arial, sans-serif;
@@ -279,8 +279,8 @@ img,
 
 .sign-up > button {
   background-color: #578ca9;
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
   color: white;
   cursor: pointer;
   font-size: 12px;

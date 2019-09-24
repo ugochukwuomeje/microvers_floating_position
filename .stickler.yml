@@ -3,7 +3,7 @@ linters:
 files:
   ignore:
     - 'bower_components/*'
-    - 'box-model/*.css'
-    - 'box-sizing/*.css'
+    - 'box-model/css/.css'
+    - 'box-sizing/css/.css'
 fixers:
   enable:true
