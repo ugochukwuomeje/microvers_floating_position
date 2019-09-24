@@ -42,7 +42,7 @@ nav ul button {
   background-color: #6288a5;
   border-radius: 3px;
   border: 1px solid #326891;
-  color: #fff;
+  color: rgb(105, 23, 23);
   cursor: pointer;
   font-family: helvetica, arial, sans-serif;
   font-size: 11px;
@@ -86,7 +86,7 @@ nav > div {
   top: 2em;
 }
 
-.telescope-section{
+.telescope-section {
   margin-top: 9%;
   text-align: center;
 }
@@ -116,7 +116,7 @@ nav > div {
 }
 
 .imgsection {
-  margin: 150px 0 0 0px;
+  margin: 150px 0 0 0;
   width: 100%;
 }
 
@@ -144,8 +144,8 @@ nav > div {
 }
 
 .top-right-img .top-img {
-  margin-top: 10px;
   margin-right: 15px;
+  margin-top: 10px;
 }
 
 .top-right-img .top-img img {
@@ -177,9 +177,9 @@ nav > div {
 }
 
 .top-right-img a .img-caption section {
-  margin-top: 4px;
-  margin-bottom: 4px;
   font-size: 1em;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 .top-right-img a .img-caption span {
@@ -243,7 +243,7 @@ nav > div {
 aside {
   display: block;
   float: right;
-  padding-right: 45px;
+  margin-right: 45px;
   width: 17%;
 }
 
@@ -256,7 +256,6 @@ aside {
   text-decoration: none;
 }
 
-
 .editors-picks > a :hover {
   text-decoration: underline;
 }
@@ -266,19 +265,19 @@ img,
   vertical-align: middle;
 }
 
-#sign-up > small {
+.sign-up > small {
   color: grey;
   font-size: 11.8px;
   line-height: 0.5;
 }
 
-#some-img-caption {
-  align: center;
+.some-img-caption {
+  text-align: center;
   margin: auto;
   width: 100%;
 }
 
-#sign-up > button {
+.sign-up > button {
   background-color: #578ca9;
   border-radius: 5px;
   border: none;
@@ -289,12 +288,12 @@ img,
   width: 100%;
 }
 
-#sign-up > button:hover {
+.sign-up > button:hover {
   background-color: #485167;
 }
 
-#some-img-caption {
-  align: center;
+.some-img-caption {
+  text-align: center;
   margin: auto;
   width: 100%;
 }
@@ -311,18 +310,25 @@ figcaption {
   width: 148%;
 }
 
-#for-none {
+.for-none {
   float: left;
   margin-left: 95px;
   width: 5%;
 }
 
-section#some-img-caption > p {
-  margin-left: 95px;
+.some-img-caption > p {
   font-size: 12px;
+  float: left;
+  margin: 0 0 0 120px;
+}
+.text-caption{
+  position:relative;
+  left:155px;
+  text-align: left
 }
 
-#text-caption > small {
+.text-caption > small {
+  left: 95px;
   color: grey;
   display: inline-block;
   font-size: 11.8px;
@@ -341,7 +347,6 @@ section#some-img-caption > p {
   float: left;
   height: 250px;
   margin: 9px;
-  padding: 12px;
   width: 250px;
 }
 
@@ -356,8 +361,7 @@ section#some-img-caption > p {
 .box2 {
   float: left;
   height: 250px;
-  margin: 9px;
-  padding: 12px;
+  margin: 12px;
   width: 250px;
 }
 
@@ -394,11 +398,11 @@ h3 {
   text-decoration: underline;
 }
 
-#go-home {
+.go-home {
   float: right;
 }
 
-#go-home > a {
+.go-home > a {
   color: #326891;
   text-decoration: none;
 }
@@ -415,13 +419,13 @@ hr {
   border-left: 1px solid grey;
 }
 
-footer > #f-links > a {
+footer > .f-links > a {
   color: gray;
   font-size: 12px;
   text-decoration: none;
 }
 
-#f-links {
+.f-links {
   padding-left: 150px;
   margin: 0 75px 0 75px;
   border-top: 1px solid grey;
