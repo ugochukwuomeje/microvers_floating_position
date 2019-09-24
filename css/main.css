@@ -272,8 +272,8 @@ img,
 }
 
 .some-img-caption {
-  text-align: center;
   margin: auto;
+  text-align: center;
   width: 100%;
 }
 
@@ -293,12 +293,12 @@ img,
 }
 
 .some-img-caption {
-  text-align: center;
   margin: auto;
+  text-align: center;
   width: 100%;
 }
 
-section > #text-caption {
+section > .text-caption {
   margin: 0 0 0 85px;
 }
 
@@ -322,16 +322,16 @@ figcaption {
   margin: 0 0 0 120px;
 }
 .text-caption{
-  position:relative;
   left:155px;
+  position:relative;
   text-align: left
 }
 
 .text-caption > small {
-  left: 95px;
   color: grey;
   display: inline-block;
   font-size: 11.8px;
+  left: 95px;
   width: 70%;
 }
 
@@ -415,8 +415,8 @@ hr {
 }
 
 .vl {
-  flex: 0;
   border-left: 1px solid grey;
+  flex: 0;
 }
 
 footer > .f-links > a {
@@ -426,9 +426,9 @@ footer > .f-links > a {
 }
 
 .f-links {
-  padding-left: 150px;
-  margin: 0 75px 0 75px;
   border-top: 1px solid grey;
+  margin: 0 75px 0 75px;
+  padding-left: 150px;
 }
 
 .autor {
@@ -448,8 +448,8 @@ footer > .f-links > a {
 }
 
 .autor .autors-details {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
 }
 
 .autor .autors-details .date {
@@ -491,6 +491,6 @@ footer > .f-links > a {
 }
 
 .dish-section .img-autor {
-  font-size: 0.8em;
   color: #888;
+  font-size: 0.8em;
 }
