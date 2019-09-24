@@ -334,7 +334,7 @@ figcaption {
   left: 95px;
   width: 70%;
 }
-
+/* csslint ignore:start */
 .boxes {
   box-sizing: border-box;
   display: inline-block;
@@ -364,7 +364,7 @@ figcaption {
   margin: 12px;
   width: 250px;
 }
-
+/* csslint ignore:end */
 .footer-container {
   display: flex;
   height: 500px;

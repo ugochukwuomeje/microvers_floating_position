@@ -1,10 +1,9 @@
 linters:
   csslint: {  }
+  stylelint: 
+    config: 'stylelint.config.js'
 files:
   ignore:
-    - 'bower_components/*'
-    - 'box-model/css/*.css'
-    - 'box-sizing/css/*.css'
+    - 'css/main.css'
 fixers:
   enable:true
-  
