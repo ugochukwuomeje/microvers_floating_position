@@ -38,7 +38,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul button {
+button nav ul {
   background-color: #6288a5;
   border-radius: 3px;
   border: 1px solid #326891;
@@ -317,8 +317,8 @@ figcaption {
 }
 
 .some-img-caption > p {
-  font-size: 12px;
   float: left;
+  font-size: 12px;
   margin: 0 0 0 120px;
 }
 .text-caption{
