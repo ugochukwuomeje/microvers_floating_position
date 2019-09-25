@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     padding: 0%;
     margin: 0%;
     height: 100%;
@@ -16,7 +17,8 @@ nav {
     width: 100%;
     height: 43px;
     line-height: 43px;
-    background-color: white
+    background-color: white;
+    z-index: 1;
 }
 
 nav ul {
@@ -64,15 +66,40 @@ nav ul li a .login {
     width: 63px;
 }
 
-nav .newyork {
-    font-family: Old English Text MT;
-    font-size: 1.5em;
+nav .newyork a{
+    
+    padding-bottom: 10px;
+
 }
 
 nav>div {
     flex: 1;
     text-align: center;
 }
+
+/******************this is for the Hermbuger menu********************/
+
+.space span{
+    margin-right: 10%;
+}
+
+.space a{
+
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14.25px;
+    font-weight: 700; 
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+ 
+}
+
+.space a:hover{
+
+    text-decoration: underline;
+}
+/*******************************************************************/
 
 .page-title {
     margin: auto;
