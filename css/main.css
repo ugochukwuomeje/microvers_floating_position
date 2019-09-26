@@ -318,7 +318,6 @@ nav > div {
 }
 
 aside {
-  border: 1px solid black;
   display: block;
   float: right;
   margin: 0;
@@ -399,12 +398,11 @@ figcaption {
   margin: 0 0 0 120px;
 }
 .text-caption {
-  left: 55px;
   display: inline-block;
+  left: 55px;
   margin-right: 12px;
   position: relative;
   text-align: left;
-  border: 1px solid blue;
 }
 
 .text-caption > small {
@@ -445,6 +443,9 @@ figcaption {
   width: 250px;
 }
 /* csslint ignore:end */
+footer ::before{
+  position: fixed;
+}
 .footer-container {
   display: flex;
   height: 500px;
