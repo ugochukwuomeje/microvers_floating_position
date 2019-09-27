@@ -1,9 +1,4 @@
 linters:
-  csslint: {  }
-  stylelint: 
+  stylelint:
     config: 'stylelint.config.js'
-files:
-  ignore:
-    - 'css/main.css'
-fixers:
-  enable:true
+
