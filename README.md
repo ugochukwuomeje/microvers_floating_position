@@ -2,3 +2,4 @@
 This is the third project floating and positioning in html and Css curriculum at [Microverse](https://www.microverse.org/) 
 - The assignment is [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 - The preview of the project is [here](https://ugochukwuomeje.github.io/microvers_floating_position/)
+- The developer of the project are, Herve with [github](https://github.com/muhenge) and Omeje [github](https://github.com/ugochukwuomeje)
