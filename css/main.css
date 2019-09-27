@@ -89,10 +89,12 @@ nav .newyork a {
   font-display: Arial, sans-serif;
   text-decoration: none;
 }
+
 .article-container ul li a {
   color: #333;
   text-decoration: none;
 }
+
 .space a:hover {
   text-decoration: underline;
 }
@@ -242,6 +244,11 @@ nav > div {
   margin-top: 10px;
 }
 
+img,
+.text-links {
+  vertical-align: middle;
+}
+
 .top-right-img .top-img img {
   height: 70%;
   width: 100%;
@@ -330,11 +337,6 @@ aside {
 
 .editors-picks > a :hover {
   text-decoration: underline;
-}
-
-img,
-.text-links {
-  vertical-align: middle;
 }
 
 .sign-up > small {
