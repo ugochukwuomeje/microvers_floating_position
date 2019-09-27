@@ -65,6 +65,15 @@ nav ul li a {
   justify-content: space-around;
 }
 
+.editors-picks > a {
+  text-decoration: none;
+}
+
+.top-right-img a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
 footer > .f-links > a {
   color: gray;
   font-size: 12px;
@@ -75,6 +84,15 @@ nav .newyork a {
   padding-bottom: 10px;
 }
 
+.footer-container > div > a {
+  color: black;
+  font-display: Arial, sans-serif;
+  text-decoration: none;
+}
+.article-container ul li a {
+  color: #333;
+  text-decoration: none;
+}
 .space a:hover {
   text-decoration: underline;
 }
@@ -90,28 +108,8 @@ nav .newyork a {
   text-decoration: none;
 }
 
-.footer-container > div > a {
-  color: black;
-  font-display: Arial, sans-serif;
-  text-decoration: none;
-}
-
 .footer-container > div > a:hover {
   text-decoration: underline;
-}
-
-.editors-picks > a {
-  text-decoration: none;
-}
-
-.article-container ul li a {
-  color: #333;
-  text-decoration: none;
-}
-
-.top-right-img a {
-  color: rgb(18, 18, 18);
-  text-decoration: none;
 }
 
 nav ul {
