@@ -443,9 +443,7 @@ figcaption {
   width: 250px;
 }
 /* csslint ignore:end */
-footer ::before{
-  position: fixed;
-}
+
 .footer-container {
   display: flex;
   height: 500px;
@@ -574,4 +572,22 @@ footer > .f-links > a {
 .dish-section .img-autor {
   color: #888;
   font-size: 0.8em;
+}
+
+.access-more{
+  background-color:white;
+  border-top: 1px solid black;
+  bottom: 0;
+  height: 35px;
+  margin-top: 12px;
+  padding-top:15px;
+  position:fixed;
+  text-align:center;
+  width: 100%;
+  z-index: 1;
+}
+
+.access-more>a{
+  color: black;
+  text-decoration: none;
 }
