@@ -45,18 +45,17 @@ nav {
   margin-right: 10%;
 }
 
-.space a {
-  color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 14.25px;
-  font-weight: 700;
-  letter-spacing: 0.7px;
-  text-decoration: none;
-  text-transform: uppercase;
+nav ul a {
+  position: relative;
+  top: -1em;
 }
 
 .space a:hover {
   text-decoration: underline;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 nav ul {
@@ -72,9 +71,7 @@ nav ul li {
   margin-right: 0;
 }
 
-nav ul li a {
-  text-decoration: none;
-}
+
 
 button nav ul {
   background-color: #6288a5;
@@ -86,16 +83,6 @@ button nav ul {
   font-size: 11px;
   font-weight: 700;
   padding-top: 0;
-}
-
-nav ul a {
-  position: relative;
-  top: -1em;
-}
-
-nav ul li a .subscribe:hover,
-nav ul li a .login:hover {
-  background-color: #326891;
 }
 
 .login,
@@ -123,9 +110,12 @@ nav ul li a .login:hover {
   width: 140px;
 }
 
-nav .newyork a {
-  padding-bottom: 10px;
+
+nav ul li a .subscribe:hover,
+nav ul li a .login:hover {
+  background-color: #326891;
 }
+
 
 nav > div {
   flex: 1;
@@ -144,6 +134,15 @@ nav > div {
   letter-spacing: 0.7px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.top-right-img a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+nav .newyork a {
+  padding-bottom: 10px;
 }
 
 .space a:hover {
@@ -203,6 +202,11 @@ nav > div {
   width: 90%;
 }
 
+.top-right-img {
+  display: flex;
+  justify-content: space-around;
+}
+
 .imgsection .imgcontainer .right-img .top-right-img {
   margin: 20px 0 20px 0;
 }
@@ -215,11 +219,6 @@ nav > div {
   width: 70%;
 }
 
-.top-right-img {
-  display: flex;
-  justify-content: space-around;
-}
-
 .top-right-img .top-img {
   margin-right: 15px;
   margin-top: 10px;
@@ -230,10 +229,7 @@ nav > div {
   width: 100%;
 }
 
-.top-right-img a {
-  color: rgb(18, 18, 18);
-  text-decoration: none;
-}
+
 
 .editor {
   font-family: Arial, Helvetica, sans-serif;
@@ -323,6 +319,7 @@ aside {
   margin: 0;
   width: 15%;
 }
+
 .text-links {
   color: black;
   font-size: 12px;
@@ -397,6 +394,7 @@ figcaption {
   font-size: 12px;
   margin: 0 0 0 120px;
 }
+
 .text-caption {
   display: inline-block;
   left: 55px;
@@ -412,6 +410,7 @@ figcaption {
   left: 95px;
   width: 70%;
 }
+
 /* csslint ignore:start */
 .boxes {
   box-sizing: border-box;
@@ -442,6 +441,7 @@ figcaption {
   margin: 12px;
   width: 250px;
 }
+
 /* csslint ignore:end */
 
 .footer-container {
@@ -452,11 +452,11 @@ figcaption {
 }
 
 h5 {
-  font-family: arial;
+  font-display: Arial, sans-serif;
 }
 
 h3 {
-  font-family: Old English Text MT;
+  font-family:"Euclid Fraktur", "Old English Text MT", fantasy, serif;
   margin-left: 15px;
 }
 
@@ -469,7 +469,7 @@ h3 {
 
 .footer-container > div > a {
   color: black;
-  font-family: arial;
+  font-display: Arial, sans-serif;
   text-decoration: none;
 }
 
@@ -580,14 +580,14 @@ footer > .f-links > a {
   bottom: 0;
   height: 35px;
   margin-top: 12px;
-  padding-top:15px;
-  position:fixed;
-  text-align:center;
+  padding-top: 15px;
+  position: fixed;
+  text-align: center;
   width: 100%;
   z-index: 1;
 }
 
-.access-more>a{
+.access-more > a {
   color: black;
   text-decoration: none;
 }
