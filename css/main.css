@@ -35,13 +35,56 @@ nav ul a {
   position: relative;
   top: -1em;
 }
+.access-more > a {
+  color: black;
+  text-decoration: none;
+}
 
-.space a:hover {
+footer > .f-links > a {
+  color: gray;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.go-home > a {
+  color: #326891;
+  text-decoration: none;
+}
+
+.footer-container > div > a:hover {
   text-decoration: underline;
+}
+
+.editors-picks > a {
+  text-decoration: none;
+}
+.article-container ul li a {
+  color: #333;
+  text-decoration: none;
+}
+nav .newyork a {
+  padding-bottom: 10px;
+}
+
+.top-right-img a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+.space a {
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14.25px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 nav ul li a {
   text-decoration: none;
+}
+.space a:hover {
+  text-decoration: underline;
 }
 
 nav ul {
@@ -102,25 +145,6 @@ nav ul li a .login:hover {
 nav > div {
   flex: 1;
   text-align: center;
-}
-
-.space a {
-  color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 14.25px;
-  font-weight: 700;
-  letter-spacing: 0.7px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.top-right-img a {
-  color: rgb(18, 18, 18);
-  text-decoration: none;
-}
-
-nav .newyork a {
-  padding-bottom: 10px;
 }
 
 .page-title {
@@ -266,13 +290,15 @@ nav .newyork a {
   padding: 25px 0 25px 0;
 }
 
-.article-container ul li a:hover {
-  color: grey;
+.autor .autor-name a {
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.article-container ul li a {
-  color: #333;
-  text-decoration: none;
+.article-container ul li a:hover {
+  color: grey;
 }
 
 .para {
@@ -291,10 +317,6 @@ aside {
 .text-links {
   color: black;
   font-size: 12px;
-}
-
-.editors-picks > a {
-  text-decoration: none;
 }
 
 .editors-picks > a :hover {
@@ -435,17 +457,8 @@ h3 {
   text-decoration: none;
 }
 
-.footer-container > div > a:hover {
-  text-decoration: underline;
-}
-
 .go-home {
   float: right;
-}
-
-.go-home > a {
-  color: #326891;
-  text-decoration: none;
 }
 
 hr {
@@ -460,12 +473,6 @@ hr {
   flex: 0;
 }
 
-footer > .f-links > a {
-  color: gray;
-  font-size: 12px;
-  text-decoration: none;
-}
-
 .f-links {
   border-top: 1px solid grey;
   margin: 0 75px 0 75px;
@@ -475,17 +482,6 @@ footer > .f-links > a {
 .autor {
   margin: auto;
   width: 48%;
-}
-
-.autor .autor-name {
-  padding-bottom: 1em;
-}
-
-.autor .autor-name a {
-  color: #333;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .autor .autors-details {
@@ -547,9 +543,4 @@ footer > .f-links > a {
   text-align: center;
   width: 100%;
   z-index: 1;
-}
-
-.access-more > a {
-  color: black;
-  text-decoration: none;
 }
