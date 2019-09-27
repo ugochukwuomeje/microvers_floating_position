@@ -35,41 +35,16 @@ nav ul a {
   position: relative;
   top: -1em;
 }
+
+nav ul li a {
+  text-decoration: none;
+}
+
 .access-more > a {
   color: black;
   text-decoration: none;
 }
 
-footer > .f-links > a {
-  color: gray;
-  font-size: 12px;
-  text-decoration: none;
-}
-
-.go-home > a {
-  color: #326891;
-  text-decoration: none;
-}
-
-.footer-container > div > a:hover {
-  text-decoration: underline;
-}
-
-.editors-picks > a {
-  text-decoration: none;
-}
-.article-container ul li a {
-  color: #333;
-  text-decoration: none;
-}
-nav .newyork a {
-  padding-bottom: 10px;
-}
-
-.top-right-img a {
-  color: rgb(18, 18, 18);
-  text-decoration: none;
-}
 .space a {
   color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -80,11 +55,63 @@ nav .newyork a {
   text-transform: uppercase;
 }
 
-nav ul li a {
+.go-home > a {
+  color: #326891;
   text-decoration: none;
 }
+
+.top-right-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > .f-links > a {
+  color: gray;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+nav .newyork a {
+  padding-bottom: 10px;
+}
+
 .space a:hover {
   text-decoration: underline;
+}
+
+.top-right-img a:hover {
+  color: gray;
+}
+
+.autor .autor-name a {
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-container > div > a {
+  color: black;
+  font-display: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.footer-container > div > a:hover {
+  text-decoration: underline;
+}
+
+.editors-picks > a {
+  text-decoration: none;
+}
+
+.article-container ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.top-right-img a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
 }
 
 nav ul {
@@ -200,11 +227,6 @@ nav > div {
   width: 90%;
 }
 
-.top-right-img {
-  display: flex;
-  justify-content: space-around;
-}
-
 .imgsection .imgcontainer .right-img .top-right-img {
   margin: 20px 0 20px 0;
 }
@@ -268,10 +290,6 @@ nav > div {
   padding-top: 50px;
 }
 
-.top-right-img a:hover {
-  color: gray;
-}
-
 .article-container {
   border-top-color: black;
   border-top-style: solid;
@@ -288,13 +306,6 @@ nav > div {
   display: list-item;
   list-style-type: none;
   padding: 25px 0 25px 0;
-}
-
-.autor .autor-name a {
-  color: #333;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .article-container ul li a:hover {
@@ -355,6 +366,14 @@ img,
   background-color: #485167;
 }
 
+.text-caption {
+  display: inline-block;
+  left: 55px;
+  margin-right: 12px;
+  position: relative;
+  text-align: left;
+}
+
 section > .text-caption {
   margin: 0 0 0 85px;
 }
@@ -377,14 +396,6 @@ figcaption {
   float: left;
   font-size: 12px;
   margin: 0 0 0 120px;
-}
-
-.text-caption {
-  display: inline-block;
-  left: 55px;
-  margin-right: 12px;
-  position: relative;
-  text-align: left;
 }
 
 .text-caption > small {
@@ -449,12 +460,6 @@ h3 {
   line-height: 25px;
   margin: 20px;
   width: 100%;
-}
-
-.footer-container > div > a {
-  color: black;
-  font-display: Arial, sans-serif;
-  text-decoration: none;
 }
 
 .go-home {
