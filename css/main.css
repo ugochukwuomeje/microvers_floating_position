@@ -26,20 +26,6 @@ nav {
   z-index: 1;
 }
 
-nav {
-  background-color: white;
-  border-color: rgb(207, 207, 207);
-  border-color: rgba(207, 207, 207, 0.637);
-  border-style: solid;
-  border-width: 1px;
-  display: flex;
-  height: 43px;
-  justify-content: space-between;
-  line-height: 43px;
-  position: fixed;
-  width: 100%;
-}
-
 .space span {
   cursor: pointer;
   margin-right: 10%;
@@ -70,8 +56,6 @@ nav ul li {
   list-style-type: none;
   margin-right: 0;
 }
-
-
 
 button nav ul {
   background-color: #6288a5;
@@ -110,20 +94,14 @@ button nav ul {
   width: 140px;
 }
 
-
 nav ul li a .subscribe:hover,
 nav ul li a .login:hover {
   background-color: #326891;
 }
 
-
 nav > div {
   flex: 1;
   text-align: center;
-}
-
-.space span {
-  margin-right: 10%;
 }
 
 .space a {
@@ -143,10 +121,6 @@ nav > div {
 
 nav .newyork a {
   padding-bottom: 10px;
-}
-
-.space a:hover {
-  text-decoration: underline;
 }
 
 .page-title {
@@ -229,8 +203,6 @@ nav .newyork a {
   width: 100%;
 }
 
-
-
 .editor {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
@@ -274,10 +246,6 @@ nav .newyork a {
 
 .top-right-img a:hover {
   color: gray;
-}
-
-.imgcontainer {
-  margin-bottom: 1em;
 }
 
 .article-container {
@@ -365,12 +333,6 @@ img,
   background-color: #485167;
 }
 
-.some-img-caption {
-  margin: auto;
-  text-align: center;
-  width: 100%;
-}
-
 section > .text-caption {
   margin: 0 0 0 85px;
 }
@@ -456,7 +418,7 @@ h5 {
 }
 
 h3 {
-  font-family:"Euclid Fraktur", "Old English Text MT", fantasy, serif;
+  font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;
   margin-left: 15px;
 }
 
@@ -575,7 +537,7 @@ footer > .f-links > a {
 }
 
 .access-more {
-  background-color:white;
+  background-color: white;
   border-top: 1px solid black;
   bottom: 0;
   height: 35px;
